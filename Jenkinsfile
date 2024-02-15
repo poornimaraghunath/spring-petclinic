@@ -15,12 +15,7 @@ pipeline {
                 sh 'mvn test'
             }
         }
-        stage('Deploy') {
-            steps {
-                // Example steps to deploy your application
-                
-            }
-        }
+        
     }
 
 }
