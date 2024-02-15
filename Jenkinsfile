@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Example steps to build your project
-                sh 'mvn clean package'
+                sh 'cd spring-petclinic && mvn clean package'
             }
         } 
         
