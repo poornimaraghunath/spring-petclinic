@@ -1,6 +1,6 @@
 pipeline {
     agent{
-      docker {
+      any {
             image 'maven:3.8.4' // specify the Maven Docker image
             args '-v /root/.m2:/root/.m2' // mount Maven settings and local repository 
         }  
